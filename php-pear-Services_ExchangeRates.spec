@@ -17,7 +17,6 @@ Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
 BuildRequires:	recode
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Extendable to work with any source that provides exchange rate data,
