@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.5.3
-Release:	%mkrel 4
+Release:	%mkrel 5
 Summary:	Performs currency conversion
 License:	PHP License
 Group:		Development/PHP
