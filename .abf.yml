@@ -1,2 +1,4 @@
+removed_sources:
+  Services_ExchangeRates-0.5.3.tar.bz2: edf0f80408c3d3ae6f6641c4d622814a79748bf3
 sources:
-  "Services_ExchangeRates-0.5.3.tar.bz2": edf0f80408c3d3ae6f6641c4d622814a79748bf3
+  Services_ExchangeRates-0.8.0.tgz: f4e45e0ab6cd700485c741b8e63c6a9f1ed07e1b
