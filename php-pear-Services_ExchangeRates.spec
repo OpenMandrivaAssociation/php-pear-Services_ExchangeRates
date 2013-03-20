@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	0.5.3
-Release:	8
+Version:	0.8.0
+Release:	1
 Summary:	Performs currency conversion
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Services_ExchangeRates/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/Services_ExchangeRates-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -47,6 +47,7 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 %defattr(-,root,root)
 %doc %{upstream_name}-%{version}/example.php
 %{_datadir}/pear/%{_class}
+%{_datadir}/pear/data/%{upstream_name}
 %{_datadir}/pear/packages/%{upstream_name}.xml
 
 
@@ -117,4 +118,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 0.5.0-1mdk
 - initial Mandriva package (PLD import)
+
 
