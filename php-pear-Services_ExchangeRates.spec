@@ -8,7 +8,7 @@ Release:	2
 Summary:	Performs currency conversion
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Services_ExchangeRates/
+URL:		https://pear.php.net/package/Services_ExchangeRates/
 Source0:	http://download.pear.php.net/package/Services_ExchangeRates-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
